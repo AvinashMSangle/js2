@@ -2,14 +2,13 @@
 // cartoon[1]="richie rich";
 // console.log(cartoon);
 
-
 // /*1*/function isEmpty(array){
 //     if(array.length ===0){
 //         return true;
 //     }else{
 //         return false;
 //     }
-// }   
+// }
 // //OR//
 
 // /*2*/function isEmpty(array){
@@ -30,7 +29,7 @@
 //   }
 
 //   console.log(isLengthy("aaavdjfjfjds"));
-  
+
 // function isLengthyAndA(str){
 //     if (str.length>=5 && str.includes("a") )return true;
 
@@ -62,12 +61,26 @@ step3:reverse the array
 step4:convert array back to string
 step5:return the string
 */
-function reverseString(sentence){
-    const sentenceArr=sentence.split("");
-    const sentenceArr.reverse();
-    return sentenceArr.join("");
-}
-const x =reverseString("hello");
-console.log(x);
+// function reverseString(sentence) {
+//   const sentenceArr = sentence.split("");
+//   sentenceArr.reverse();
+//   return sentenceArr.join("");
+// }
+// const x = reverseString("Avinash");
+// console.log(x);
 
- 
+////////////////////////JS2.1////////////////////////
+// console.log(reverseNum(567474758585));
+
+// function reverseNum(num){
+//     const strNum=String(num);
+//     const numArr=strNum.split("");
+//     const reverseArr= numArr.reverse().join("");
+//     return reverseArr;
+// }
+
+
+
+
+
+
