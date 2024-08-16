@@ -80,7 +80,40 @@ step5:return the string
 // }
 
 
+/*function reverseNum(num,keepsign){
+    // num=Math.abs(num);
+    const strNum=String(num);
+    const numArr=strNum.split("");
+    const reverseArr=numArr.reverse().join("");
+    const nigNum= parseFloat(reverseArr);
+    // if(keepsign){
+    //             return parseFloat(reverseArr)*Math.sign(num);
+    //         }else{
+    //             return parseFloat(reverseArr);
+    //         }
+    return keepsign ? nigNum*Math.sign(num):nigNum;
+    
+}
+console.log(reverseNum(-7706,false));
+console.log(reverseNum(5387));
+console.log(reverseNum(-7706,true));
+*/
 
+/////////////loops///////////////////////
+// for(var i=0; i<=100; i++){
+//     console.log(i);
+    
+// }
 
+// for(var i=0; i<=20; i+=2){
+//     if(i!=18)
+//         console.log(i);  
+//     }
 
+const fruits = [Apple,Banana,Orange,Mango,Grapes,Kiwi]
 
+for( let i=0; i<=fruits.length; i++){
+    const fruit= fruits[i];
+    console.log(capitalize(fruit));
+}
+function  capitalize(string)
