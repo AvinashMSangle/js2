@@ -127,14 +127,17 @@ console.log(reverseNum(-7706,true));
 // }
 // printEveryNum(65868976);
 
-function sumOfNums(number){
-    let counter = 0;
-    for(let i = 0; i<number.length; i++){
-        counter += number[i]
-    }
-    return counter;
+// function sumOfNums(number){
+//     let counter = 0;
+//     for(let i = 0; i<number.length; i++){
+//         counter += number[i]
+//     }
+//     return counter;
+// }
+
+// const x = sumOfNums([1,2,3,45,7,47,4]);
+// console.log(x);
+
+function alphabate(alpha){
+    const alphabates
 }
-
-const x = sumOfNums([1,2,3,45,7,47,4]);
-console.log(x);
-
