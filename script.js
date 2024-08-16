@@ -110,10 +110,31 @@ console.log(reverseNum(-7706,true));
 //         console.log(i);  
 //     }
 
-const fruits = [Apple,Banana,Orange,Mango,Grapes,Kiwi]
+// const fruits = [Apple,Banana,Orange,Mango,Grapes,Kiwi]
 
-for( let i=0; i<=fruits.length; i++){
-    const fruit= fruits[i];
-    console.log(capitalize(fruit));
+// for( let i=0; i<=fruits.length; i++){
+//     const fruit= fruits[i];
+//     console.log(capitalize(fruit));
+// }
+// function  capitalize(string)
+
+// function printEveryNum(number){
+//     const numString = String(number);
+
+//     for(let i =0; i< numString.length; i++){
+//         console.log(numString[i]);
+//         }
+// }
+// printEveryNum(65868976);
+
+function sumOfNums(number){
+    let counter = 0;
+    for(let i = 0; i<number.length; i++){
+        counter += number[i]
+    }
+    return counter;
 }
-function  capitalize(string)
+
+const x = sumOfNums([1,2,3,45,7,47,4]);
+console.log(x);
+
