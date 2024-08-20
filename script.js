@@ -138,6 +138,3 @@ console.log(reverseNum(-7706,true));
 // const x = sumOfNums([1,2,3,45,7,47,4]);
 // console.log(x);
 
-function alphabate(alpha){
-    const alphabates
-}
