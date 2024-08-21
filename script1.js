@@ -41,7 +41,7 @@ months(12);
 
 
 
-/////Q2/////
+/////Q2/////edabit//
 // const x=[1,2,3,4];
 
 // x.push("A");
@@ -50,7 +50,7 @@ months(12);
 
 // console.log(x);
 
-const menu={
+/*const menu={
     vada_pav:"Rs20",
     pani_puri:"Rs20",
     shev_puri:"Rs30"
@@ -68,3 +68,59 @@ const menu={
     const tax=Number(value.slice(1))+1; 
     console.log(`The price of ${key} is $${tax}`);
  }
+*/
+
+// function remove$(str){
+//     let x = str.slice(1).replace(",","");
+//     return parseInt(x);
+//  }
+//  console.log(remove$("$5,446"));
+
+// function itemsPurchased(store,wallet){
+//     //creating empty list
+//     const filteredItems = [];
+    
+//     //converting wallet to a num
+//     wallet = remove$(wallet);
+
+//     //iterating over store items
+//     for(let item in store){
+//         if(remove$(store[item]) <= wallet){
+//             filteredItems.push(item);
+//         }
+//     }
+//     return filteredItems.length > 0 ? filteredItems.sort(): "Nothing";
+// }
+
+///////////////Q3//////////edabit///
+
+
+
+function move(char,step){
+
+    const alphabates = "abcdefghijklmnopqrstuvwxyz";
+    const idxchar = alphabates.indexOf(char);
+    let finalIdx =  idxchar + step;
+
+    if(finalIdx > 25){
+        finalIdx = finalIdx%26;
+    }
+    const finalChar = alphabates[finalIdx];
+    return finalChar
+
+}
+const x = move("S",100);
+console.log(x);
+
+    
+
+
+
+
+
+
+
+
+
+
+ 
