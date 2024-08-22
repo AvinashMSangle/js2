@@ -93,26 +93,46 @@ months(12);
 // }
 
 ///////////////Q3//////////edabit///
-
-
-
+/*
+// function move char by given steps
 function move(char,step){
 
-    const alphabates = "abcdefghijklmnopqrstuvwxyz";
+    let alphabates = "abcdefghijklmnopqrstuvwxyz";
+    
+        if(alphabates.toUpperCase().includes(char)){
+            alphabates = alphabates.toUpperCase();
+        }
+        if (!alphabates.includes(char)){
+            return char;
+        }
+
     const idxchar = alphabates.indexOf(char);
     let finalIdx =  idxchar + step;
+
 
     if(finalIdx > 25){
         finalIdx = finalIdx%26;
     }
     const finalChar = alphabates[finalIdx];
-    return finalChar
+    return finalChar;
 
 }
-const x = move("S",100);
-console.log(x);
+// const x = move("m", 2);
+// console.log(x);
 
-    
+function caesarCipher(s,k){
+    let finalstr = "";
+    for(let i=0; i < s.length; i++){
+        finalstr+= move(s[i],k);
+    // for(let char of s){
+    //     finalstr += move(char,k);
+    }
+    return finalstr;
+}
+console.log(caesarCipher("middle-Outz", 2));
+*/
+
+//////////Q4////edabit///
 
 
 
