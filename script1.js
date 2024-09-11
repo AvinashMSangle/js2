@@ -134,9 +134,9 @@ console.log(caesarCipher("middle-Outz", 2));
 
 //////////Q4////edabit///function factory/////
 
-function makePlusFuncton(baseNum){
-    return 
-}
+// function makePlusFuncton(baseNum){
+//     return 
+// }
 
 
 
@@ -153,11 +153,11 @@ function makePlusFuncton(baseNum){
 
 
 ////////////Q5///////
-function sevenBoom(listOfNums){
-    for(let num of listOfNums){ 
+// function sevenBoom(listOfNums){
+//     for(let num of listOfNums){ 
 
-    }
-}
+//     }
+// }
 
 
 
@@ -168,25 +168,27 @@ function sevenBoom(listOfNums){
 
 
 /////Q6//////
-function convertToArray(funcStr){
-    const paramStart = funcStr.indexOf("(");
-    const paramEnd = funcStr.indexOf(")");
-    const funcParam = funcStr.slice(paramStart+1,paramEnd);
+// function convertToArray(funcStr){
+//     const paramStart = funcStr.indexOf("(");
+//     const paramEnd = funcStr.indexOf(")");
+//     const funcParam = funcStr.slice(paramStart+1,paramEnd);
 
-    const bracketStart = funcStr.indexOf("{");
-    const funcBody = funcStr.slice(bracketStart);
+//     const bracketStart = funcStr.indexOf("{");
+//     const funcBody = funcStr.slice(bracketStart);
 
-    console.log(funcBody);
+//     console.log(funcBody);
 
-    const arrowStr = `(${funcParam}) => ${funcBody};`
+//     const arrowStr = `(${funcParam}) => ${funcBody}`;
+
+//     if 
     
-}
+// }
 
 
 
 
 
-
+////////
 
 
 
